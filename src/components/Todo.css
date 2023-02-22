@@ -1,0 +1,25 @@
+li{
+    list-style-type: none;
+    width: 300px;
+    height: 40px;
+    background-color: rgb(247, 243, 239);
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    padding:  5px 10px;
+}
+li div{
+    display: flex;
+    gap: 10px;
+    cursor: pointer;
+}
+label{
+    border: none;
+    outline: none;
+    width: 100%;
+    padding: 0 10px;
+}
+label:focus{
+    background-color: gray;
+}
